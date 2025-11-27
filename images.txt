@@ -83,4 +83,4 @@
 #nacos/nacos-server:v3.1.0
 #nacos/nacos-server:v2.5.1
 #captainji/jupyterlab:3.0.5
---platform linux/arm64 redis:5.0.14
+--platform linux/arm64 grafana/grafana:latest
