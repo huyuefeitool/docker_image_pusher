@@ -12,26 +12,24 @@
 #nvcr.io/nvidia/pytorch:25.06-py3
 #nvcr.io/nvidia/pytorch:25.07-py3
 
-nvidia/cuda:13.1.0-base-ubuntu24.04
-nvidia/cuda:13.1.0-devel-ubuntu24.04
-nvidia/cuda:13.1.0-runtime-ubuntu24.04
+pytorch/pytorch:2.10.0-cuda13.0-cudnn9-runtime
+pytorch/pytorch:2.10.0-cuda13.0-cudnn9-devel
+pytorch/pytorch:2.10.0-cuda12.6-cudnn9-runtime
+pytorch/pytorch:2.10.0-cuda12.6-cudnn9-devel
+pytorch/pytorch:2.10.0-cuda12.8-cudnn9-runtime
+pytorch/pytorch:2.10.0-cuda12.8-cudnn9-devel
 
-nvidia/cuda:13.1.0-devel-ubuntu22.04
-nvidia/cuda:13.1.0-runtime-ubuntu22.04
-nvidia/cuda:13.1.0-base-ubuntu22.04
+#nvidia/cuda:13.1.1-cudnn-devel-ubuntu24.04
+#nvidia/cuda:13.1.1-cudnn-runtime-ubuntu24.04
+#nvidia/cuda:13.1.1-cudnn-devel-ubuntu22.04
+#nvidia/cuda:13.1.1-cudnn-runtime-ubuntu22.04
 
-nvidia/cuda:13.1.1-cudnn-devel-ubuntu24.04
-nvidia/cuda:13.1.1-cudnn-runtime-ubuntu24.04
-nvidia/cuda:13.1.1-cudnn-devel-ubuntu22.04
-nvidia/cuda:13.1.1-cudnn-runtime-ubuntu22.04
-
-nvidia/cuda:13.1.1-base-ubuntu24.04
-nvidia/cuda:13.1.1-devel-ubuntu24.04
-nvidia/cuda:13.1.1-runtime-ubuntu24.04
-
-nvidia/cuda:13.1.1-base-ubuntu22.04
-nvidia/cuda:13.1.1-devel-ubuntu22.04
-nvidia/cuda:13.1.1-runtime-ubuntu22.04
+#nvidia/cuda:13.1.1-base-ubuntu24.04
+#nvidia/cuda:13.1.1-devel-ubuntu24.04
+#nvidia/cuda:13.1.1-runtime-ubuntu24.04
+#nvidia/cuda:13.1.1-base-ubuntu22.04
+#nvidia/cuda:13.1.1-devel-ubuntu22.04
+#nvidia/cuda:13.1.1-runtime-ubuntu22.04
 
 #nginx:1.28.0
 #ghcr.io/sillytavern/sillytavern:latest
