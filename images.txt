@@ -11,13 +11,17 @@
 #nvcr.io/nvidia/pytorch:25.05-py3
 #nvcr.io/nvidia/pytorch:25.06-py3
 #nvcr.io/nvidia/pytorch:25.07-py3
+nvcr.io/nvidia/pytorch:25.08-py3
+nvcr.io/nvidia/pytorch:25.09-py3
+nvcr.io/nvidia/pytorch:25.10-py3
+nvcr.io/nvidia/pytorch:25.11-py3
 
-pytorch/pytorch:2.10.0-cuda13.0-cudnn9-runtime
-pytorch/pytorch:2.10.0-cuda13.0-cudnn9-devel
-pytorch/pytorch:2.10.0-cuda12.6-cudnn9-runtime
-pytorch/pytorch:2.10.0-cuda12.6-cudnn9-devel
-pytorch/pytorch:2.10.0-cuda12.8-cudnn9-runtime
-pytorch/pytorch:2.10.0-cuda12.8-cudnn9-devel
+#pytorch/pytorch:2.10.0-cuda13.0-cudnn9-runtime
+#pytorch/pytorch:2.10.0-cuda13.0-cudnn9-devel
+#pytorch/pytorch:2.10.0-cuda12.6-cudnn9-runtime
+#pytorch/pytorch:2.10.0-cuda12.6-cudnn9-devel
+#pytorch/pytorch:2.10.0-cuda12.8-cudnn9-runtime
+#pytorch/pytorch:2.10.0-cuda12.8-cudnn9-devel
 
 #nvidia/cuda:13.1.1-cudnn-devel-ubuntu24.04
 #nvidia/cuda:13.1.1-cudnn-runtime-ubuntu24.04
