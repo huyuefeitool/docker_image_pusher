@@ -12,16 +12,26 @@
 #nvcr.io/nvidia/pytorch:25.06-py3
 #nvcr.io/nvidia/pytorch:25.07-py3
 
-#nvidia/cuda:13.0.2-base-ubuntu24.04
-#nvidia/cuda:13.0.2-devel-ubuntu24.04
-#nvidia/cuda:13.0.2-runtime-ubuntu24.04
-#nvidia/cuda:13.0.2-devel-ubuntu22.04
-#nvidia/cuda:13.0.2-runtime-ubuntu22.04
-#nvidia/cuda:13.0.2-base-ubuntu22.04
-#nvidia/cuda:13.0.2-cudnn-devel-ubuntu24.04
-#nvidia/cuda:13.0.2-cudnn-runtime-ubuntu24.04
-#nvidia/cuda:13.0.2-cudnn-devel-ubuntu22.04
-#nvidia/cuda:13.0.2-cudnn-runtime-ubuntu22.04
+nvidia/cuda:13.1.0-base-ubuntu24.04
+nvidia/cuda:13.1.0-devel-ubuntu24.04
+nvidia/cuda:13.1.0-runtime-ubuntu24.04
+
+nvidia/cuda:13.1.0-devel-ubuntu22.04
+nvidia/cuda:13.1.0-runtime-ubuntu22.04
+nvidia/cuda:13.1.0-base-ubuntu22.04
+
+nvidia/cuda:13.1.1-cudnn-devel-ubuntu24.04
+nvidia/cuda:13.1.1-cudnn-runtime-ubuntu24.04
+nvidia/cuda:13.1.1-cudnn-devel-ubuntu22.04
+nvidia/cuda:13.1.1-cudnn-runtime-ubuntu22.04
+
+nvidia/cuda:13.1.1-base-ubuntu24.04
+nvidia/cuda:13.1.1-devel-ubuntu24.04
+nvidia/cuda:13.1.1-runtime-ubuntu24.04
+
+nvidia/cuda:13.1.1-base-ubuntu22.04
+nvidia/cuda:13.1.1-devel-ubuntu22.04
+nvidia/cuda:13.1.1-runtime-ubuntu22.04
 
 #nginx:1.28.0
 #ghcr.io/sillytavern/sillytavern:latest
@@ -83,4 +93,4 @@
 #nacos/nacos-server:v3.1.0
 #nacos/nacos-server:v2.5.1
 #captainji/jupyterlab:3.0.5
---platform linux/arm64 grafana/grafana:latest
+#--platform linux/arm64 grafana/grafana:latest
