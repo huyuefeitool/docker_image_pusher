@@ -4,8 +4,8 @@
 #guiji2025/fish-speech-5090
 #guiji2025/heygem.ai-5090
 
-#nvcr.io/nvidia/pytorch:25.01-py3
-#nvcr.io/nvidia/pytorch:25.02-py3
+nvcr.io/nvidia/pytorch:26.01-py3
+nvcr.io/nvidia/pytorch:26.02-py3
 #nvcr.io/nvidia/pytorch:25.03-py3
 #nvcr.io/nvidia/pytorch:25.04-py3
 #nvcr.io/nvidia/pytorch:25.05-py3
@@ -17,12 +17,12 @@
 #nvcr.io/nvidia/pytorch:25.11-py3
 #nvcr.io/nvidia/pytorch:25.12-py3
 
-pytorch/pytorch:2.11.0-cuda13.0-cudnn9-runtime
-pytorch/pytorch:2.11.0-cuda13.0-cudnn9-devel
-pytorch/pytorch:2.11.0-cuda12.6-cudnn9-runtime
-pytorch/pytorch:2.11.0-cuda12.6-cudnn9-devel
-pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime
-pytorch/pytorch:2.11.0-cuda12.8-cudnn9-devel
+#pytorch/pytorch:2.11.0-cuda13.0-cudnn9-runtime
+#pytorch/pytorch:2.11.0-cuda13.0-cudnn9-devel
+#pytorch/pytorch:2.11.0-cuda12.6-cudnn9-runtime
+#pytorch/pytorch:2.11.0-cuda12.6-cudnn9-devel
+#pytorch/pytorch:2.11.0-cuda12.8-cudnn9-runtime
+#pytorch/pytorch:2.11.0-cuda12.8-cudnn9-devel
 
 #nvidia/cuda:13.2.0-cudnn-devel-ubuntu24.04
 #nvidia/cuda:13.2.0-cudnn-runtime-ubuntu24.04
