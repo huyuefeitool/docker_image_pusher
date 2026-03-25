@@ -4,18 +4,18 @@
 #guiji2025/fish-speech-5090
 #guiji2025/heygem.ai-5090
 
-nvcr.io/nvidia/pytorch:26.01-py3
-nvcr.io/nvidia/pytorch:26.02-py3
-#nvcr.io/nvidia/pytorch:25.03-py3
-#nvcr.io/nvidia/pytorch:25.04-py3
-#nvcr.io/nvidia/pytorch:25.05-py3
-#nvcr.io/nvidia/pytorch:25.06-py3
-#nvcr.io/nvidia/pytorch:25.07-py3
-#nvcr.io/nvidia/pytorch:25.08-py3
-#nvcr.io/nvidia/pytorch:25.09-py3
-#nvcr.io/nvidia/pytorch:25.10-py3
-#nvcr.io/nvidia/pytorch:25.11-py3
-#nvcr.io/nvidia/pytorch:25.12-py3
+#nvcr.io/nvidia/pytorch:26.01-py3
+#nvcr.io/nvidia/pytorch:26.02-py3
+nvcr.io/nvidia/pytorch:26.03-py3
+#nvcr.io/nvidia/pytorch:26.04-py3
+#nvcr.io/nvidia/pytorch:26.05-py3
+#nvcr.io/nvidia/pytorch:26.06-py3
+#nvcr.io/nvidia/pytorch:26.07-py3
+#nvcr.io/nvidia/pytorch:26.08-py3
+#nvcr.io/nvidia/pytorch:26.09-py3
+#nvcr.io/nvidia/pytorch:26.10-py3
+#nvcr.io/nvidia/pytorch:26.11-py3
+#nvcr.io/nvidia/pytorch:26.12-py3
 
 #pytorch/pytorch:2.11.0-cuda13.0-cudnn9-runtime
 #pytorch/pytorch:2.11.0-cuda13.0-cudnn9-devel
