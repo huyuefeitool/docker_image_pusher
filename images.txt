@@ -36,7 +36,8 @@
 #nvidia/cuda:13.2.1-devel-ubuntu22.04
 #nvidia/cuda:13.2.1-runtime-ubuntu22.04
 
-fnsys/dockhand:v1.0.27
+postgres:16-alpine
+#fnsys/dockhand:v1.0.27
 #nginx:1.30.0
 #ghcr.io/sillytavern/sillytavern:latest
 #--platform linux/arm64/v8 redis:8.0.2
