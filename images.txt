@@ -36,7 +36,8 @@
 #nvidia/cuda:13.2.1-devel-ubuntu22.04
 #nvidia/cuda:13.2.1-runtime-ubuntu22.04
 
-nginx:1.30.0
+fnsys/dockhand:v1.0.27
+#nginx:1.30.0
 #ghcr.io/sillytavern/sillytavern:latest
 #--platform linux/arm64/v8 redis:8.0.2
 #--platform linux/arm64 apache/rocketmq:5.3.3
