@@ -92,7 +92,10 @@ nginx:1.31.0
 #n8nio/n8n:2.20.0
 
 #docker.n8n.io/n8nio/n8n
---platform linux/arm64/v8 nginx:1.31.0
+nginx:1.30.4
+nginx:1.31.3
+--platform linux/arm64/v8 nginx:1.31.3
+--platform linux/arm64/v8 nginx:1.30.4
 #--platform linux/arm64/v8 emqx:5.8.3
 #--platform linux/arm64 emqx/emqx:5.8.3
 #nacos/nacos-server:v3.1.0
