@@ -40,18 +40,8 @@
 #fnsys/dockhand:v1.0.27
 #nginx:1.31.0
 #ghcr.io/sillytavern/sillytavern:latest
---platform linux/arm64/v8 redis:8.10.3
---platform linux/arm64/v8 redis:8.8.4
---platform linux/arm64/v8 redis:8.6.8
---platform linux/arm64/v8 redis:8.4.8
---platform linux/arm64/v8 redis:8.2.11
---platform linux/arm64/v8 redis:8.0.6
-redis:8.10.3
-redis:8.8.4
-redis:8.6.8
-redis:8.4.8
-redis:8.2.11
-redis:8.0.6
+#--platform linux/arm64/v8 redis:8.10.3
+#redis:8.10.3
 #--platform linux/arm64 apache/rocketmq:5.3.3
 #greatsql/greatsql_build:8.0.32-27
 #greatsql/greatsql_build
@@ -112,4 +102,13 @@ redis:8.0.6
 #nacos/nacos-server:v3.1.0
 #nacos/nacos-server:v2.5.1
 #captainji/jupyterlab:3.0.5
-#--platform linux/arm64 grafana/grafana:latest
+
+
+grafana/grafana-enterprise:13.2.4
+grafana/grafana-enterprise:13.2.4-ubuntu
+grafana/grafana:13.2.4
+grafana/grafana:13.2.4-ubuntu
+--platform linux/arm64/v8 grafana/grafana-enterprise:13.2.4
+--platform linux/arm64/v8 grafana/grafana-enterprise:13.2.4-ubuntu
+--platform linux/arm64/v8 grafana/grafana:13.2.4
+--platform linux/arm64/v8 grafana/grafana:13.2.4-ubuntu
