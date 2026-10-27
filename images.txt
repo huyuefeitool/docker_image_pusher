@@ -17,26 +17,12 @@
 #nvcr.io/nvidia/pytorch:26.11-py3
 #nvcr.io/nvidia/pytorch:26.12-py3
 
-pytorch/pytorch:2.12.1-cuda13.2-cudnn9-devel
-pytorch/pytorch:2.12.1-cuda13.2-cudnn9-runtime
-pytorch/pytorch:2.12.1-cuda13.0-cudnn9-devel
-pytorch/pytorch:2.12.1-cuda13.0-cudnn9-runtime
-pytorch/pytorch:2.12.1-cuda12.6-cudnn9-devel
-pytorch/pytorch:2.12.1-cuda12.6-cudnn9-runtime
-
-pytorch/pytorch:2.13.0-cuda13.2-cudnn9-devel
-pytorch/pytorch:2.13.0-cuda13.2-cudnn9-runtime
-pytorch/pytorch:2.13.0-cuda13.0-cudnn9-devel
-pytorch/pytorch:2.13.0-cuda13.0-cudnn9-runtime
-pytorch/pytorch:2.13.0-cuda12.6-cudnn9-devel
-pytorch/pytorch:2.13.0-cuda12.6-cudnn9-runtime
-
-pytorch/pytorch:2.14.0-cuda13.2-cudnn9-devel
-pytorch/pytorch:2.14.0-cuda13.2-cudnn9-runtime
-pytorch/pytorch:2.14.0-cuda13.0-cudnn9-devel
-pytorch/pytorch:2.14.0-cuda13.0-cudnn9-runtime
-pytorch/pytorch:2.14.0-cuda12.6-cudnn9-devel
-pytorch/pytorch:2.14.0-cuda12.6-cudnn9-runtime
+#pytorch/pytorch:2.14.0-cuda13.2-cudnn9-devel
+#pytorch/pytorch:2.14.0-cuda13.2-cudnn9-runtime
+#pytorch/pytorch:2.14.0-cuda13.0-cudnn9-devel
+#pytorch/pytorch:2.14.0-cuda13.0-cudnn9-runtime
+#pytorch/pytorch:2.14.0-cuda12.6-cudnn9-devel
+#pytorch/pytorch:2.14.0-cuda12.6-cudnn9-runtime
 
 #nvidia/cuda:13.1.2-cudnn-devel-ubuntu24.04
 #nvidia/cuda:13.1.2-cudnn-runtime-ubuntu24.04
@@ -52,7 +38,7 @@ pytorch/pytorch:2.14.0-cuda12.6-cudnn9-runtime
 
 #postgres:16-alpine
 #fnsys/dockhand:v1.0.27
-nginx:1.31.0
+#nginx:1.31.0
 #ghcr.io/sillytavern/sillytavern:latest
 #--platform linux/arm64/v8 redis:8.0.2
 #--platform linux/arm64 apache/rocketmq:5.3.3
@@ -106,10 +92,10 @@ nginx:1.31.0
 #n8nio/n8n:2.20.0
 
 #docker.n8n.io/n8nio/n8n
-nginx:1.30.4
-nginx:1.31.3
---platform linux/arm64/v8 nginx:1.31.3
---platform linux/arm64/v8 nginx:1.30.4
+nginx:1.30.6
+nginx:1.31.7
+--platform linux/arm64/v8 nginx:1.31.7
+--platform linux/arm64/v8 nginx:1.30.6
 #--platform linux/arm64/v8 emqx:5.8.3
 #--platform linux/arm64 emqx/emqx:5.8.3
 #nacos/nacos-server:v3.1.0
